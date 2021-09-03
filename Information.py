@@ -30,6 +30,7 @@ def banner():
 		sys.stdout.write(s)
 		sys.stdout.flush()
 		sleep(0.01)
+banner()
 ################################################################
 url = "https://who.is/domains/search"
 ip = str(input("\n\033[92m[\033[94m+\033[92m] \033[96mEnter \033[91mIP \033[96mor \033[91mDomain \033[96mTo Start --> \033[96m"))
