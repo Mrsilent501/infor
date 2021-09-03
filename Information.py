@@ -33,7 +33,7 @@ def banner():
 banner()
 ################################################################
 url = "https://who.is/domains/search"
-ip = str(input("\n\033[92m[\033[94m+\033[92m] \033[96mEnter \033[91mIP \033[96mor \033[91mDomin \033[96mTo Start --> \033[96m"))
+ip = str(input("\n\033[92m[\033[94m+\033[92m] \033[96mEnter \033[91mIP \033[96mTo Start --> \033[96m"))
 try:
 	data = {
 	"searchString": ip
